@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de M'hand Amrane, Data Engineer & AI Specialist. Découvrez mes projets, compétences et expériences en ingénierie de données.">
+    <title>M'hand Amrane | Data Engineer & AI</title>
+    
+    <!-- Google Fonts: Inter pour une typo moderne sans-serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-bg-2"></div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">M.<span>A</span></a>
+            <nav class="nav-links">
+                <a href="#about">À propos</a>
+                <a href="#skills">Compétences</a>
+                <a href="#projects">Projets</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="menu-toggle" aria-label="Menu" id="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section Hero -->
+        <section id="hero" class="hero section">
+            <div class="container hero-content">
+                <span class="badge fade-up">👋 Bonjour, je suis</span>
+                <h1 class="fade-up delay-1">M'hand Amrane</h1>
+                <h2 class="subtitle fade-up delay-2">Data Engineer <span class="gradient-text">| AI & Big Data</span></h2>
+                <p class="fade-up delay-3">
+                    Passionné par les architectures data modernes, l'intelligence artificielle, 
+                    et la création de pipelines fiables et scalables.
+                </p>
+                <div class="hero-cta fade-up delay-4">
+                    <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+                
+                <!-- Social links snippet -->
+                <div class="social-links fade-up delay-4">
+                    <a href="https://github.com/MhandAMRANE" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/m-hand-amrane-396064300/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-indicator fade-up delay-5" aria-label="Scroll down">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+        </section>
+
+        <!-- Section À propos -->
+        <section id="about" class="about section">
+            <div class="container reveal">
+                <h2 class="section-title">À propos de moi</h2>
+                <div class="about-grid">
+                    <div class="about-card glass">
+                        <div class="icon-wrap">🎓</div>
+                        <h3>Formation</h3>
+                        <ul class="timeline">
+                            <li>
+                                <strong>2025-2026</strong>
+                                <p>Master 1 Data Engineer – Univ. Corse Pasquale Paoli</p>
+                            </li>
+                            <li>
+                                <strong>2023-2025</strong>
+                                <p>Master Systèmes d'Information Avancés – Univ. M. Béjaïa</p>
+                            </li>
+                            <li>
+                                <strong>2020-2023</strong>
+                                <p>Licence en Informatique</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about-card glass">
+                        <div class="icon-wrap">🚀</div>
+                        <h3>Actuellement</h3>
+                        <p>Je suis activement à la recherche d'une <strong>alternance en Data Engineering</strong>. Je développe actuellement des projets liés au Big Data & BI et me forme sur les architectures Data Lakehouse, Real-Time Streaming, Databricks et Apache Spark.</p>
+                        
+                        <h3 style="margin-top: 1.5rem;">Expérience</h3>
+                        <p><strong>Stage – Groupe Cevital (2024)</strong></p>
+                        <ul>
+                            <li>Découverte des SI d'entreprise</li>
+                            <li>Maintenance applicative & gestion de données</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section id="skills" class="skills section">
+            <div class="container reveal">
+                <h2 class="section-title">Compétences</h2>
+                <div class="skills-grid">
+                    <div class="skill-category glass">
+                        <h3>Data Engineering</h3>
+                        <div class="tags">
+                            <span class="tag">ETL / ELT</span>
+                            <span class="tag">Spark</span>
+                            <span class="tag">Databricks</span>
+                            <span class="tag">Airflow</span>
+                            <span class="tag">SQL / NoSQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass">
+                        <h3>Intelligence Artificielle</h3>
+                        <div class="tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">LLMs (Gemini, OpenAI)</span>
+                            <span class="tag">Prompt Engineering</span>
+                            <span class="tag">Analyse Sémantique</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass">
+                        <h3>Langages & Outils</h3>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Flask / FastAPI</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets Phares -->
+        <section id="projects" class="projects section">
+            <div class="container reveal">
+                <h2 class="section-title">Projets Phares</h2>
+                <div class="projects-grid">
+                    <!-- Project NutriFit -->
+                    <article class="project-card glass">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-year">Mars 2026 - Projet académique</span>
+                            </div>
+                            <h3>🏋️ NutriFit API (Développeur Back-End)</h3>
+                            <p>Conception d'une API RESTful complète de nutrition et fitness. Auth JWT sécurisée, modélisation BDD (utilisateurs, recettes, exercices) via MySQL (SQLAlchemy) et intégration d'un coach IA via Gemini API. Déploiement Uvicorn/Gunicorn + Swagger.</p>
+                            <div class="tags">
+                                <span class="tag">FastAPI</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Gemini API</span>
+                                <span class="tag">JWT</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 1 -->
+                    <article class="project-card glass">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-year">2025-2026</span>
+                            </div>
+                            <h3>🏆 ReadZen - Hackathon ZENDOK</h3>
+                            <p>Solution de numérisation et d'analyse intelligente de documents. Architecture Full Stack temps réel avec WebSockets (Socket.IO). Intégration IA : analyse sémantique, résumé, traduction, chat (OpenAI/Gemini).</p>
+                            <div class="tags">
+                                <span class="tag">Socket.IO</span>
+                                <span class="tag">LLM</span>
+                                <span class="tag">OCR (Tesseract)</span>
+                                <span class="tag">Whisper</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card glass">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-year">2025-2026</span>
+                            </div>
+                            <h3>📊 Plateforme de gestion de datasets</h3>
+                            <p>Architecture hybride PostgreSQL / MongoDB pour données hétérogènes. Processus ETL avec Pentaho (iCubE) pour l'intégration et l'analyse. Cubes OLAP pour analyse multidimensionnelle.</p>
+                            <div class="tags">
+                                <span class="tag">PostgreSQL</span>
+                                <span class="tag">MongoDB</span>
+                                <span class="tag">Pentaho</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card glass">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-year">2025-2026</span>
+                            </div>
+                            <h3>🤖 Dashboard Feedback AI</h3>
+                            <p>Application web d’analyse de feedbacks. Import CSV, analyse sémantique via LLM pour la détection de sentiment. Audit qualité IA et visualisation interactive des données.</p>
+                            <div class="tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Flask</span>
+                                <span class="tag">SQLite</span>
+                                <span class="tag">Chart.js</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card glass">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-year">2024-2025</span>
+                            </div>
+                            <h3>🤖 Application web de prédiction</h3>
+                            <p>Système d'aide à la décision basé sur le Machine Learning. Collecte de données en temps réel via API (marchés & réseaux sociaux) avec un dashboard interactif.</p>
+                            <div class="tags">
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">API</span>
+                                <span class="tag">Web</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 5 -->
+                    <article class="project-card glass">
+                        <div class="project-content">
+                            <div class="project-meta">
+                                <span class="project-year">2024-2025</span>
+                            </div>
+                            <h3>🔬 Framework pour systèmes cyber-physiques (Cycab)</h3>
+                            <p>Mémoire de Master en Recherche. Modélisation formelle avec langage Z et UML. Développement d'un framework théorique pour la validation de la sûreté de fonctionnement.</p>
+                            <div class="tags">
+                                <span class="tag">UML</span>
+                                <span class="tag">Recherche</span>
+                                <span class="tag">Z Language</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact section">
+            <div class="container reveal">
+                <h2 class="section-title" style="display: block; text-align: center; margin-bottom: 4rem;">Travaillons ensemble</h2>
+                
+                <div class="contact-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+                    
+                    <!-- Option 1: Direct Email -->
+                    <div class="contact-box glass">
+                        <h3 style="margin-bottom: 1rem; font-size: 1.25rem;">Option 1 : E-mail direct</h3>
+                        <p class="contact-text" style="font-size: 0.95rem;">Je suis disponible pour une alternance ou des projets ambitieux.<br><br>Choisissez votre service de messagerie :</p>
+                        
+                        <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.8rem;">
+                            <!-- Lien direct Webmail Gmail -->
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mhandamrane25@gmail.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background: #ea4335; border-color: #ea4335; box-shadow: 0 4px 15px rgba(234, 67, 53, 0.3);">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                Ouvrir avec Gmail
+                            </a>
+                            <!-- Lien direct Webmail Outlook -->
+                            <a href="https://outlook.live.com/mail/0/deeplink/compose?to=mhandamrane25@gmail.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background: #0078d4; border-color: #0078d4; box-shadow: 0 4px 15px rgba(0, 120, 212, 0.3);">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                Ouvrir avec Outlook
+                            </a>
+                            <!-- Lien standard Mailto (App par défaut) -->
+                            <div style="display: flex; gap: 0.8rem; margin-top: 0.5rem; flex-wrap: wrap;">
+                                <a href="mailto:mhandamrane25@gmail.com" class="btn btn-secondary" style="flex: 1; padding: 0.6rem; font-size: 0.85rem; text-align: center;">
+                                    Autre messagerie
+                                </a>
+                                <button onclick="navigator.clipboard.writeText('mhandamrane25@gmail.com'); alert('Adresse e-mail copiée !');" class="btn btn-secondary" style="flex: 1; padding: 0.6rem; font-size: 0.85rem;" title="Copier l'adresse e-mail">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                    Copier l'e-mail
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Option 2: Contact Form -->
+                    <div class="contact-box glass">
+                        <h3 style="margin-bottom: 1rem; font-size: 1.25rem;">Option 2 : Formulaire en ligne</h3>
+                        <p class="contact-text" style="font-size: 0.95rem;">Envoyez-moi un message directement d'ici. Il arrivera instantanément dans ma boîte mail.</p>
+                        
+                        <form action="https://formsubmit.co/mhandamrane25@gmail.com" method="POST" class="contact-form" style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
+                            <!-- FormSubmit Config -->
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_subject" value="Nouveau message depuis le Portfolio !">
+                            
+                            <input type="email" name="email" placeholder="Votre adresse e-mail" required class="form-input">
+                            <input type="text" name="Objet" placeholder="Objet du message" required class="form-input">
+                            <textarea name="message" placeholder="Votre message..." rows="5" required class="form-input"></textarea>
+                            
+                            <button type="submit" class="btn btn-primary" style="margin-top: 0.5rem;">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                Envoyer le message
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> M'hand Amrane. Fait avec passion.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
